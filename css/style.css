@@ -13,7 +13,7 @@
   width: 100%;
 }
 .Title {
-  text-align: center;
+  margin-left: 30%;
   color: #fe2260;
   padding-top: 3%;
   text-shadow: 0px 0px 5px red;
@@ -44,6 +44,8 @@ button :hover {
 .Computer-P {
   height: 300px;
   width: auto;
+  color: #fe2260;
+  text-align: center;
 }
 .flex {
   display: flexbox;
@@ -64,7 +66,7 @@ button :hover {
   background-color: whitesmoke;
   width: 100%;
   height: min-content;
-  font-size: small;
+  font-size: 10px;
 }
 
 .Info {
@@ -91,4 +93,32 @@ button :hover {
     background-color: whitesmoke;
 height: 80%;
 
+}
+.ComputerCard{
+  height: 250px;
+  width: 220px;
+}
+span{
+  color:#fe2260 ;
+  text-shadow: 0px 0px 3px red;
+
+}
+i{
+  color:#091264 ;
+  text-shadow: 0px 0px 5px blue;
+
+}
+.slider {
+
+  overflow-x: auto;
+}
+.slide {
+  
+  flex-shrink: 0;
+  height: 100%;
+}
+.cardImg{
+
+  height: 250px;
+  width: 160px;
 }
