@@ -56,7 +56,7 @@ function Randomize(card) {
     ComputerCard.setAttribute("class", "cardImg");
   } else if (Played == "Paper") {
     ComputerCard.removeAttribute("src");
-    ComputerCard.setAttribute("src", "./img/p.png");
+    ComputerCard.setAttribute("src", "./img/P.png");
     ComputerCard.setAttribute("class", "cardImg");
   } else if (Played == "Scissor") {
     ComputerCard.removeAttribute("src");
