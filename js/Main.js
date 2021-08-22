@@ -18,28 +18,28 @@ function Randomize(card) {
     var LocalStorageArr = localStorage.getItem("Winner");
     LocalStorageArr = LocalStorageArr ? LocalStorageArr.split(",") : [];
     LocalStorageArr.push(
-      `you Played <i>${card}</i> And Computer <i>${Played}</i> <span>Tie</span> <br>`
+      `you Played <i>${card}</i> And Computer <i>${Played}</i> <br><span>Tie</span> <br>`
     );
     localStorage.setItem("Winner", LocalStorageArr);
   } else if (Played == "Rock" && card == "Paper") {
     var LocalStorageArr = localStorage.getItem("Winner");
     LocalStorageArr = LocalStorageArr ? LocalStorageArr.split(",") : [];
     LocalStorageArr.push(
-      `you Played <i>${card}</i> And Computer <i>${Played}</i> <span>you Won</span> <br>`
+      `you Played <i>${card}</i> And Computer <i>${Played}</i> <br><span>you Won</span> <br>`
     );
     localStorage.setItem("Winner", LocalStorageArr);
   } else if (Played == "Paper" && card == "Scissor") {
     var LocalStorageArr = localStorage.getItem("Winner");
     LocalStorageArr = LocalStorageArr ? LocalStorageArr.split(",") : [];
     LocalStorageArr.push(
-      `you Played <i>${card}</i> And Computer <i>${Played}</i> <span>you Won</span> <br>`
+      `you Played <i>${card}</i> And Computer <i>${Played}</i> <br><span>you Won</span> <br>`
     );
     localStorage.setItem("Winner", LocalStorageArr);
   } else if (Played == "Scissor" && card == "Rock") {
     var LocalStorageArr = localStorage.getItem("Winner");
     LocalStorageArr = LocalStorageArr ? LocalStorageArr.split(",") : [];
     LocalStorageArr.push(
-      `you Played <i>${card}</i> And Computer <i>${Played}</i> <span>you Won</span><br>`
+      `you Played <i>${card}</i> And Computer <i>${Played}</i><br> <span>you Won</span><br>`
     );
     localStorage.setItem("Winner", LocalStorageArr);
   } else {
